@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="html quiz/html-quiz.css">
+    <title>Html Quiz</title>
+</head>
+
+<body>
+    <main class="main section" id="main">
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__logo">
+                    <h1>Trivial</h1>
+                </div>
+                <div class="toggle__icons container">
+                    <i class="ri-sun-line"></i>
+                    <div class="toggle__box">
+                        <div class="toggle__circle"></div>
+                    </div>
+                    <i class="ri-moon-line"></i>
+                </div>
+            </nav>
+        </header>
+        <section class="section container grid">
+            <div class="the__game-container section  grid hidden">
+                <div class="progress-and-options">
+                    <div class="html__container container ">
+                        <div class="score__questions">
+                            <p class="html__question-counter"></p>
+                            <p class="html__score">Points: 0</p>
+                        </div>
+
+                        <h1 class="html__title" id="html-question">A portrait that comically exaggerates a person's
+                            physical
+                            traits is called a what?</h1>
+                    </div>
+                    <div class="progress__progress-questions">
+                        <div class="html__progress">
+                            <div class="html__progress-full"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="html__options">
+                    <div class="html__options-container">
+                        <div class="html__options-list">
+                            <p class="html__choice-prefix">A</p>
+                            <p class="html__choice-text" data-number="1"></p>
+                        </div>
+
+                        <div class="html__options-list">
+                            <p class="html__choice-prefix">B</p>
+                            <p class="html__choice-text" data-number="2"></p>
+                        </div>
+
+                        <div class="html__options-list">
+                            <p class="html__choice-prefix">C</p>
+                            <p class="html__choice-text" data-number="3"></p>
+                        </div>
+
+                        <div class="html__options-list">
+                            <p class="html__choice-prefix">D</p>
+                            <p class="html__choice-text" data-number="4"></p>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button class="btn">
+                            Volver al menú
+                        </button>
+                        <button class="skip">Saltar a la puntuación </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script type="module" src="html-quiz.js"></script>
+</body>
+
+</html>

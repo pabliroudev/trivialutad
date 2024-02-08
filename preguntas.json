@@ -1,0 +1,23 @@
+[
+  {
+    "question": "¿Qué se entiende por HTML?",
+    "options": {
+      "option1": "Hyper Text Markup Language",
+      "option2": "High-Level Text Management Language",
+      "option3": "Hyper Transfer Text Language",
+      "option4": "Hyperlink and Text Management Language"
+    },
+    "answer": "1"
+  },
+  
+  {
+    "question": "What does CSS stand for?",
+    "options": {
+    "option1": "Cascading Style Sheets",
+    "option2": "Centralized Style System",
+    "option3": "Colorful Style Syntax",
+    "option4": "Computerized Styling Service"
+    },
+    "answer": "1"
+    }
+]
